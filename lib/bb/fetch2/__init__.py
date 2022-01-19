@@ -1894,6 +1894,8 @@ from . import repo
 from . import clearcase
 from . import npm
 from . import npmsw
+from . import crate
+
 
 methods.append(local.Local())
 methods.append(wget.Wget())
@@ -1913,3 +1915,4 @@ methods.append(repo.Repo())
 methods.append(clearcase.ClearCase())
 methods.append(npm.Npm())
 methods.append(npmsw.NpmShrinkWrap())
+methods.append(crate.Crate())
