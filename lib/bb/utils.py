@@ -1597,6 +1597,7 @@ def set_process_name(name):
         pass
 
 def disable_network(uid=None, gid=None):
+    return
     """
     Disable networking in the current process if the kernel supports it, else
     just return after logging to debug. To do this we need to create a new user
